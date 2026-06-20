@@ -1,3 +1,6 @@
+# Create a program that asks the user to enter their name and their age.
+# Print out a message addressed to them that tells them the year that they will turn 100 years old.
+
 from datetime import datetime
 
 currentYear = int(datetime.now().strftime("%Y"))
@@ -12,6 +15,6 @@ while True:
 
         continue
 
-    print("You're " + str(int(currentYear) - int(age)) + " years old. Yeah, that checks out.\n")
+    print("You're " + str(int(currentYear) - int(age)) + " years old. You'll be 100 in " + str(int(age) + 100))
 
                 
